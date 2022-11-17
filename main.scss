@@ -1,0 +1,82 @@
+@import "./resets";
+@import "./variables";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-width: 375px;
+  max-height: 100vh;
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
+  background-color: $primary_dark-cyan;
+  font-family: $font-family;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.everything {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+
+  img {
+    position: inherit;
+  }
+
+  .profile {
+    img {
+      width: 100px;
+      height: 100px;
+      border: 6px solid white;
+      border-radius: 50%;
+      margin-top: -53px;
+    }
+    line-height: 3rem;
+    h2.name {
+      color: $primary_Very-dark-desaturated-blue;
+      font-size: 1.5rem;
+      span {
+        color: $primary_Dark-grayish-blue;
+        font-size: 1.5rem;
+      }
+    }
+    p {
+      color: $primary_Dark-grayish-blue;
+      font-size: 1rem;
+    }
+  }
+}
+
+.end {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  padding: 2rem;
+  border-top: 1px solid opacity($color: hsl(240, 2%, 36%), $amount: 0);
+
+  margin-top: 1rem;
+
+  h2 {
+    color: $primary_Very-dark-desaturated-blue;
+  }
+  p {
+    color: $primary_Dark-grayish-blue;
+  }
+}

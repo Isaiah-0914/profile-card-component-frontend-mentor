@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-width: 375px;
+  max-height: 100vh;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-color: hsl(185deg, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.everything {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.everything img {
+  position: inherit;
+}
+.everything .profile {
+  line-height: 3rem;
+}
+.everything .profile img {
+  width: 100px;
+  height: 100px;
+  border: 6px solid white;
+  border-radius: 50%;
+  margin-top: -53px;
+}
+.everything .profile h2.name {
+  color: hsl(229deg, 23%, 23%);
+  font-size: 1.5rem;
+}
+.everything .profile h2.name span {
+  color: hsl(227deg, 10%, 46%);
+  font-size: 1.5rem;
+}
+.everything .profile p {
+  color: hsl(227deg, 10%, 46%);
+  font-size: 1rem;
+}
+
+.end {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  padding: 2rem;
+  border-top: 1px solid #5a5a5e;
+  margin-top: 1rem;
+}
+.end h2 {
+  color: hsl(229deg, 23%, 23%);
+}
+.end p {
+  color: hsl(227deg, 10%, 46%);
+}/*# sourceMappingURL=main.css.map */
